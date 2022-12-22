@@ -1,0 +1,56 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#menu > li a {
+    color: black;
+    font-weight: bold;
+}
+
+
+#menu > li :hover{
+    color: #304ffe;
+}
+
+body > div:nth-child(2) > div > div.col.p-4.mt-4.mx-auto.flex-warp > div:nth-child(1){
+    border: red solid 1px;
+}
+
+body > div:nth-child(2) > div > div.col.p-4.mt-4.mx-auto.flex-warp > div.row.\.d-inline-flex-justify-content-evenly.mt-4.p-3.mx-auto{
+    border: green 1px solid;
+}
+
+ p {
+    /* border: blue 1px solid; */
+    font-size: larger;
+    font-weight: bolder;
+}
+.btn{
+    height: 2.5rem;
+    width: 80%;
+    font: bolder;
+}
+
+body > div:nth-child(2) > div > div.col.p-4.mt-4.mx-auto.d\.flex-warp > div.row.justify-content-md-center.mt-4.pt-3 > div.container{
+    border: 2px black solid;
+}
+
+
+
+
+@media only screen and (min-width: 274px) and (max-width: 495px) {
+
+#dropdownMenuButton2 {
+        font-size: xx-small;
+}
+
+.form-control{
+    font-size: smaller !important;
+    padding: 0.2rem 0.2rem;
+}
+
+}
+
